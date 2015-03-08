@@ -6,7 +6,7 @@
     "markwylde"
   ],
   "install": {
-    "path": "sourcemap.js"
+    "path": "src"
   },
   "license": "MIT"
 }
