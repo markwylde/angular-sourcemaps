@@ -127,7 +127,8 @@ function Domain() {
     }
 
     if (!(moduleName in define.modules)) {
-      throw new Error("Module not defined: " + moduleName);
+      //throw new Error("Module not defined: " + moduleName);
+      return;
     }
 
     var module = define.modules[moduleName];
