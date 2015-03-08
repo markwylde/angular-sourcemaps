@@ -1,0 +1,12 @@
+{
+  "name": "ng-sourcemap",
+  "version": "0.0.1",
+  "homepage": "https://github.com/markwylde/ng-sourcemap",
+  "authors": [
+    "markwylde"
+  ],
+  "install": {
+    "path": "sourcemap.js"
+  },
+  "license": "MIT"
+}
