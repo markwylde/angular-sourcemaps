@@ -6,7 +6,7 @@
     "markwylde"
   ],
   "install": {
-    "path": "src"
+    "main": "dist/source-map.min.js"
   },
   "license": "MIT"
 }
