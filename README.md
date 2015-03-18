@@ -8,6 +8,8 @@ This will not actually generate SourceMaps for your javascript files. Instead, w
 ### 1a) Add to bower
     bower install https://github.com/markwylde/ng-sourcemap.git
 
+** Sorry, I will get this added to bower properly soon
+
 ### or 1b) Manually download
 git clone https://github.com/markwylde/ng-sourcemap.git
 
