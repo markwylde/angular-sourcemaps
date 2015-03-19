@@ -11,7 +11,7 @@ This will not actually generate SourceMaps for your javascript files. Instead, w
 ** Sorry, I will get this added to bower properly soon
 
 ### or 1b) Manually download
-git clone https://github.com/markwylde/angular-sourcemap.git
+	git clone https://github.com/markwylde/angular-sourcemap.git
 
 ### 2) Include the following files in your html file
 	<script src="angular-sourcemap/dist/angular-sourcemap.min.js"></script>
