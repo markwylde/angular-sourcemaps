@@ -14,10 +14,10 @@ This will not actually generate SourceMaps for your javascript files. Instead, w
 	git clone https://github.com/markwylde/angular-sourcemaps.git
 
 ### 2) Include the following files in your html file
-	<script src="angular-sourcemap/dist/angular-sourcemap.min.js"></script>
-    <script src="angular-sourcemap/dist/source-map.min.js"></script>
+	<script src="angular-sourcemaps/dist/angular-sourcemaps.min.js"></script>
+    <script src="angular-sourcemaps/dist/source-map.min.js"></script>
 
 ### 3) Add the dependancy in your AngularJS app
 	angular.module('myApp', [
-	    'angular-sourcemap'
+	    'angular-sourcemaps'
 	])
