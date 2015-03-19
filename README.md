@@ -19,5 +19,5 @@ This will not actually generate SourceMaps for your javascript files. Instead, w
 
 ### 3) Add the dependancy in your AngularJS app
 	angular.module('myApp', [
-	    'ngSourceMap'
+	    'angular-sourcemap'
 	])
