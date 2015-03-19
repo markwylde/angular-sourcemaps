@@ -1,4 +1,4 @@
-# angular-sourcemap
+# angular-sourcemaps
 The Mozilla Sourcemap library is a brilliant project from Mozilla to help with sourcemaps in the browser. This project has the compiled distribution files from the official repo, along with an AngularJS app.
 
 # Notes
