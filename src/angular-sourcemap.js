@@ -1,4 +1,4 @@
-angular.module('ngSourceMap', [])
+angular.module('angular-sourcemap', [])
 
     .factory('$exceptionHandler', ['$log', '$window', '$injector',
         function($log, $window, $injector) {
