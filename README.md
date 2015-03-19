@@ -1,4 +1,4 @@
-# ng-sourcemap
+# angular-sourcemap
 The Mozilla Sourcemap library is a brilliant project from Mozilla to help with sourcemaps in the browser. This project has the compiled distribution files from the official repo, along with an AngularJS app.
 
 # Notes
@@ -6,16 +6,16 @@ This will not actually generate SourceMaps for your javascript files. Instead, w
 
 ## How to install
 ### 1a) Add to bower
-    bower install https://github.com/markwylde/ng-sourcemap.git
+    bower install https://github.com/markwylde/angular-sourcemap.git
 
 ** Sorry, I will get this added to bower properly soon
 
 ### or 1b) Manually download
-git clone https://github.com/markwylde/ng-sourcemap.git
+git clone https://github.com/markwylde/angular-sourcemap.git
 
 ### 2) Include the following files in your html file
-	<script src="ng-sourcemap/dist/ng-sourcemap.min.js"></script>
-    <script src="ng-sourcemap/dist/source-map.min.js"></script>
+	<script src="angular-sourcemap/dist/angular-sourcemap.min.js"></script>
+    <script src="angular-sourcemap/dist/source-map.min.js"></script>
 
 ### 3) Add the dependancy in your AngularJS app
 	angular.module('myApp', [
