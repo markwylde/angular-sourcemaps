@@ -48,7 +48,7 @@ angular.module('angular-sourcemaps', [])
                                 var mangledName = prefix.match(/\s*(at)?\s*(.*?)\s*(\(|@)/);
                                 mangledName = (mangledName && mangledName[2]) || '';
                                 return '    at ' + (pos.name ? pos.name : mangledName) + ' ' +
-                                    $window.location.origin + pos.source + ':' + pos.line + ':' +
+                                    $window.location.origin + map.sourceRoot.replace(/\/+$/, '') + pos.source + ':' + pos.line + ':' +
                                     pos.column;
                             }, function() {
                                 return stackLine;
