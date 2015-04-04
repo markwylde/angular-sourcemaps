@@ -1,9 +1,9 @@
 {
-  "name": "ng-sourcemap",
+  "name": "angular-sourcemaps",
   "version": "0.0.1",
-  "main": ["dist/source-map.min.js","dist/ng-sourcemap.min.js"],
+  "main": ["dist/source-map.min.js","dist/angular-sourcemaps.min.js"],
   "license": "MIT",
-  "homepage": "https://github.com/markwylde/ng-sourcemap",
+  "homepage": "https://github.com/markwylde/angular-sourcemasp",
   "authors": [
     "markwylde"
   ]
