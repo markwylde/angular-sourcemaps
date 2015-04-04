@@ -2,6 +2,7 @@
   "name": "angular-sourcemaps",
   "version": "0.0.1",
   "main": ["dist/source-map.min.js","dist/angular-sourcemaps.min.js"],
+  "ignore": [],
   "license": "MIT",
   "homepage": "https://github.com/markwylde/angular-sourcemasp",
   "authors": [
